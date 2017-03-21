@@ -9,7 +9,7 @@ angular
         // Features
         'workFlo.clickedImage',
        //  'workFlo.contactPage',
-       // 'workFlo.filteredRequestPage',
+       'workFlo.filteredRequestPage',
        // 'workFlo.frontPage',
        // 'workFlo.loadingPage'
        // 'workFlo.logInHomePage',

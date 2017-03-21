@@ -12,7 +12,7 @@ function filteredRequestPageConfig($stateProvider) {
         name: 'filteredRequestPage', // name of the route
         url: '/filteredRequestPage', // url endpoint for the route
         templateUrl: '/workFlo/features/filteredRequestPage/filteredRequestPage.html', // The url to the view template
-        controller: 'FilteredRequestPage', // The name of the controller to use for this route
-        controllerAs: 'FilteredRequestPage' // The namespace for the view to access the view model
+        controller: 'FilteredRequestPageCtrl', // The name of the controller to use for this route
+        controllerAs: 'FilteredRequestPageVM' // The namespace for the view to access the view model
     })
 }

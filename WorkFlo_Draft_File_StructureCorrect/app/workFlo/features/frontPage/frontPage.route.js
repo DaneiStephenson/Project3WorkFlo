@@ -12,7 +12,7 @@ function frontPageConfig($stateProvider) {
         name: 'frontPage', // name of the route
         url: '/frontPage', // url endpoint for the route
         templateUrl: '/workFlo/features/frontPage/frontPage.html', // The url to the view template
-        controller: 'FrontPage', // The name of the controller to use for this route
-        controllerAs: 'FrontPage' // The namespace for the view to access the view model
+        controller: 'FrontPageCtrl', // The name of the controller to use for this route
+        controllerAs: 'FrontPageVM' // The namespace for the view to access the view model
     })
 }
