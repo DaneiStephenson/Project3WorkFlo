@@ -14,7 +14,7 @@
   font-family: 'Material Icons';
   font-weight: normal;
   font-style: normal;
-  font-size: 24px;  /* Preferred icon size */
+  font-size: 70px;  /* Preferred icon size */
   display: inline-block;
   line-height: 1;
   text-transform: none;
@@ -36,10 +36,20 @@
 }
 
 
+
+
 h2 {
 	color:red;
 	text-align: center;
 	font-size: 40px;
+
+}
+h4 {
+  color:black;
+  text-align: center;
+  font-size: 40px;
+
+font-family: 'Raleway', sans-serif;
 
 }
 
@@ -87,3 +97,36 @@ color: green;
 	padding-left: 100px
 
 }
+
+.material-icons.md-40 {
+ font-size: 40px; 
+ 
+    z-index: 2;
+    float: right;
+    width: 55%;
+    margin-bottom: 0;
+    
+}
+
+
+
+
+
+
+.bounce {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-right: -50%;
+    width: 100%;
+  }
+}
+
