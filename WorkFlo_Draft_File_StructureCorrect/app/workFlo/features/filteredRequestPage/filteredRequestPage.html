@@ -3,13 +3,13 @@
     <div class="navbar-header">
       <a class="navbar-brand" href="#">
         <span class = "glyphicon glyphicon-home"> </span>
-        <a ui-sref="clickedImage" ><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+       <a href="javascript:history.back()" ><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
 
- <a ui-sref="frontPage" ><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+ <a href="javascript:history.forward()" ><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
 
       
 <input type="text" class="form-control searchbox clickedImage" placeholder="Search">
-      <span class ="glyphicon glyphicon-menu-hamburger"> </span>
+    <a ui-sref="contactPage"><span class ="glyphicon glyphicon-menu-hamburger"> </span>
       </a>
     </div>
   </div>

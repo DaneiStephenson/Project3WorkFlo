@@ -8,10 +8,10 @@ angular
 'workFlo.searchPage',
         // Features
         'workFlo.clickedImage',
-       //  'workFlo.contactPage',
+        'workFlo.contactPage',
        'workFlo.filteredRequestPage',
        // 'workFlo.frontPage',
-       // 'workFlo.loadingPage'
+       'workFlo.loadingPage'
        // 'workFlo.logInHomePage',
        // 'workFlo.randomSearchPage',
        

@@ -12,7 +12,7 @@ function loadingPageConfig($stateProvider) {
         name: 'loadingPage', // name of the route
         url: '/loadingPage', // url endpoint for the route
         templateUrl: '/workFlo/features/loadingPage/loadingPage.html', // The url to the view template
-        controller: 'LoadingPage', // The name of the controller to use for this route
-        controllerAs: 'LoadingPage' // The namespace for the view to access the view model
+        controller: 'LoadingPageCtrl', // The name of the controller to use for this route
+        controllerAs: 'LoadingPageVM' // The namespace for the view to access the view model
     })
 }

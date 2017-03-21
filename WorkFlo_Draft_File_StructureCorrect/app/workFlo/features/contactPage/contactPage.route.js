@@ -12,7 +12,7 @@ function contactPageConfig($stateProvider) {
         name: 'contactPage', // name of the route
         url: '/contactPage', // url endpoint for the route
         templateUrl: '/workFlo/features/contactPage/contactPage.html', // The url to the view template
-        controller: 'ContactPage', // The name of the controller to use for this route
-        controllerAs: 'ContactPage' // The namespace for the view to access the view model
+        controller: 'ContactPageCtrl', // The name of the controller to use for this route
+        controllerAs: 'ContactPageVM' // The namespace for the view to access the view model
     })
 }
