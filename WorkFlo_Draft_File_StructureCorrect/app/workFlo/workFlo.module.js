@@ -11,8 +11,8 @@ angular
         'workFlo.contactPage',
        'workFlo.filteredRequestPage',
        // 'workFlo.frontPage',
-       'workFlo.loadingPage'
-       // 'workFlo.logInHomePage',
+       'workFlo.loadingPage',
+       'workFlo.loginHomePage',
        // 'workFlo.randomSearchPage',
        
        // 'workFlo.signIn',

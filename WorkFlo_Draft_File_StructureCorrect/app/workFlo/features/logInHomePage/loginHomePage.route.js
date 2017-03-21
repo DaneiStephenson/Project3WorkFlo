@@ -12,7 +12,7 @@ function loginHomePageConfig($stateProvider) {
         name: 'loginHomePage', // name of the route
         url: '/loginHomePage', // url endpoint for the route
         templateUrl: '/workFlo/features/loginHomePage/loginHomePage.html', // The url to the view template
-        controller: 'LoginHomePage', // The name of the controller to use for this route
-        controllerAs: 'LoginHomePage' // The namespace for the view to access the view model
+        controller: 'LoginHomePageCtrl', // The name of the controller to use for this route
+        controllerAs: 'LoginHomePageVM' // The namespace for the view to access the view model
     })
 }
