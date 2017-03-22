@@ -15,7 +15,7 @@ angular
        'workFlo.loginHomePage',
        // 'workFlo.randomSearchPage',
        
-       // 'workFlo.signIn',
+       'workFlo.signIn',
        // 'workFlo.signUp',
        // 'workFlo.uploadPage'
         
