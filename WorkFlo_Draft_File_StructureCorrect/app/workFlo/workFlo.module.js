@@ -10,7 +10,7 @@ angular
         'workFlo.clickedImage',
         'workFlo.contactPage',
        'workFlo.filteredRequestPage',
-       // 'workFlo.frontPage',
+       'workFlo.frontPage',
        'workFlo.loadingPage',
        'workFlo.loginHomePage',
        // 'workFlo.randomSearchPage',
