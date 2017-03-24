@@ -623,12 +623,15 @@ float:right;
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-menu a:hover {background-color: #f1f1f1}
+.dropdown-menu a:hover {
+  background-color: #f1f1f1;
+  width: 150px;}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
     font-size:10px;
+
     
 }
 
@@ -652,3 +655,33 @@ float:right;
    
 
 }
+
+.hamburgerSearchIcon{
+  margin-left: 90px;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 130px;
+    padding: 3px 0;
+    margin-left: 90px;
+    margin-top: -10px;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
