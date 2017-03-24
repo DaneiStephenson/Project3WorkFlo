@@ -72,10 +72,41 @@ border-radius: 2px;
    
 }
 
+/*.btn.purplebutton {
+     background-image: -webkit-linear-gradient(top,#337ab7 0,#265a88 100%); 
+   background-color:#581845;
+}*/
+
+
+.btn-primary {
+    background-image: -webkit-linear-gradient(top,#581845 0,#581845 100%);
+    background-image: -o-linear-gradient(top,#581845 0,#581845 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#581845),to(#581845));
+    background-image: linear-gradient(to bottom,#581845 0,#581845 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #581845;
+}
+
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #fff;
+    background-color: #581845;
+    border-color: #581845;
+}
+
+
+
+.btn-primary:focus, .btn-primary:hover {
+    background-color: #581845;
+    background-position: 0 -15px;
+}
+
 .btn-default {
-    color: #a94442;
-    background-color: #fff;
-    border-color: #5bc0de;
+   /* color: #a94442;*/
+   /* background-color: #fff;
+    border-color: #5bc0de;*/
 }
 .glyphicon-menu-hamburger {
   position: absolute;
@@ -674,7 +705,8 @@ float:right;
 
 /* Change color of dropdown links on hover */
 .dropdown-menu a:hover {
-  background-color: #f1f1f1;
+  background-color: 
+  ;
   width: 100px;
   min-width: 100px;
 }
@@ -745,3 +777,5 @@ float:right;
 .navbar-header.userheader {
   background-color:#581845;
 }
+
+
