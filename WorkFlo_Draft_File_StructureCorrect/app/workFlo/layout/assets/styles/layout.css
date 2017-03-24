@@ -39,9 +39,9 @@
 
 
 h2 {
-	color:red;
-	text-align: center;
-	font-size: 20px;
+  color:red;
+  text-align: center;
+  font-size: 20px;
 
 }
 h4 {
@@ -62,7 +62,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 button{
-color: green;	    
+color: green;     
 
    
    
@@ -74,9 +74,9 @@ color: green;
     border-color: #5bc0de;
 }
 .glyphicon-menu-hamburger {
-	position: absolute;
-	padding-left: 90%;
-	margin-top: 20px;
+  position: absolute;
+  padding-left: 90%;
+  margin-top: 20px;
   color:#777777
 }
 
@@ -90,12 +90,12 @@ color: green;
 
 .dropdown {
 
-	padding-left: 30px
+  padding-left: 30px
 
 }
 
 .input-group {
-	padding-left: 100px
+  padding-left: 100px
 
 }
 
@@ -466,7 +466,29 @@ body.lb-disable-scrolling {
   margin-top: 18px;
 }
 
+/*.glyphicon-chevron-right.rightarrow {
+  margin-bottom: -10px;
+/*  margin-left: -200px;*/
 
+ /* z-index: 1000000;*/
+/*
+} */
+/*.glyphicon-chevron-left.leftarrow {
+  margin-top: -10px;*/
+/*  margin-left: -100px;*/
+
+ /* z-index: 1000000;*/
+/*
+} */
+
+
+.searhboxptions2{
+ margin-top: 12px;
+}
+
+.arrows {
+  display: inline-block;
+}
 .searchbox.clickedImage {
 
   margin-right: 120px;
@@ -523,16 +545,16 @@ float:right;
 .column1 {
     border: 5px yellow solid;
     border-right:2.5px;
-    height: 100px;
+    height: 300px;
 }
 .column2 {
     border: 5px yellow solid;
-    height: 100px;
+    height: 300px;
 }
 .column3 {
     border: 5px yellow solid;
      border-left:2.5px;
-    height: 100px;
+    height: 300px;
    
 }
 
