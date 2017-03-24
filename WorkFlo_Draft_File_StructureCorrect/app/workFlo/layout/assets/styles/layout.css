@@ -170,7 +170,7 @@ border-radius: 2px;
   position: relative;
   z-index: 4;
   float: right;
-  margin-left: 160px;
+/*  margin-left: 160px;*/
   width: 200px;
   margin-top: -5px;
   text-align: center
@@ -519,7 +519,13 @@ body.lb-disable-scrolling {
 
 
 .searhboxptions2{
- margin-top: 12px;
+     margin-top: 8px;
+    margin-right: 220px;
+}
+
+.glyphicon.glyphicon-menu-hamburger.burger {
+      margin-left: 430px;
+      z-index:9px;
 }
 
 .arrows {
@@ -527,7 +533,7 @@ body.lb-disable-scrolling {
 }
 .searchbox.clickedImage {
 
-  margin-right: 120px;
+  margin-right: 230px;
   margin-top: 10px;
 }
 
