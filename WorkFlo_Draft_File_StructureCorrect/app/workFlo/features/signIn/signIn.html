@@ -3,17 +3,43 @@
    <div class="navbar-header">
      <a class="navbar-brand" href="#">
        <span class = "glyphicon glyphicon-home"> </span>
-<input type="text" class="form-control searchbox" placeholder="Search">
-        <span class ="glyphicon glyphicon-menu-hamburger"> </span>
+<div class="arrows">
+         <a href="javascript:history.back()" ><span class="glyphicon glyphicon-chevron-left leftarrow" aria-hidden="true"><span></span></span></a>
+
+             
+
+ <a href="javascript:history.forward()" ><span class="glyphicon glyphicon-chevron-right rightarrow" aria-hidden="true"></span></a>
+            </a>
+
+
+                <a ui-sref="loginHomePage"><input type="text" class="form-control searchbox searhboxptions2" placeholder="Search"></a>
+
+                <div class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    <span class="glyphicon glyphicon-menu-hamburger hamburgerSearchIcon"></span>
+    </a>
+    <ul class="dropdown-menu ddmfp">
+        <li class="menuitem"><a ui-sref= "signUp">Sign Up</a></li>
+      
+        <li class="menuitem"><a ui-sref= "contactPage">Contact Page</a></li>
+
+      
+        <li class="menuitem"><a ui-sref= ""> Upload</a></li>
+                <li class="menuitem"><a ui-sref= "/"> Sign Out</a></li>
+
+        
+    </ul>
+</div>
+
      </a>
    </div>
  </div>
 </nav>
 
 
-<h4>Login Page</h4>
+<h5>Login Page</h5>
 
-
+<div class="signupfont">
 
 <div class="container">
 <div class="row">
@@ -27,11 +53,13 @@
   <input type="text" name="lastname" value="" style="  width: 400px; height: 300px border : none">
   <br><br>
   
-  <a ui-sref="filteredRequestPage"><button type="submit" value="Submit" style=" background-color: #ff9900; width: 200px; height: 30px; border : none">Submit</button></a>
+  <a ui-sref="randomSearchPage"><button type="submit" value="Submit" style=" background-color: #ff9900; width: 200px; height: 30px; border : none">Submit</button></a>
 </form> 
 
 </div>
 <div class="col-md-3"><img class= "scissors" src="/scissors.png"></div>
+</div>
+
 </div>
 
 </div>

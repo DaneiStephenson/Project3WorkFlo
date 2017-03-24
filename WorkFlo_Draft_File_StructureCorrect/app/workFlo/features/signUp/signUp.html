@@ -1,1 +1,72 @@
-Hello
+<nav class="navbar navbar-default">
+ <div class="container-fluid">
+   <div class="navbar-header">
+     <a class="navbar-brand" href="#">
+       <span class = "glyphicon glyphicon-home"> </span>
+         <div class="arrows">
+         <a href="javascript:history.back()" ><span class="glyphicon glyphicon-chevron-left leftarrow" aria-hidden="true"><span></span></span></a>
+
+             
+
+ <a href="javascript:history.forward()" ><span class="glyphicon glyphicon-chevron-right rightarrow" aria-hidden="true"></span></a>
+            </a>
+
+
+                <a ui-sref="loginHomePage"><input type="text" class="form-control searchbox searhboxptions2" placeholder="Search"></a>
+
+                <div class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    <span class="glyphicon glyphicon-menu-hamburger hamburgerSearchIcon"></span>
+    </a>
+    <ul class="dropdown-menu ddmfp">
+        <li class="menuitem"><a ui-sref= "signIn">Sign In</a></li>
+      
+        <li class="menuitem"><a ui-sref= "contactPage">Contact Page</a></li>
+        
+    </ul>
+</div>
+
+     </a>
+   </div>
+ </div>
+</nav>
+
+
+<h5>Sign Up</h5>
+
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-6">
+
+<div class= "signupfont">
+
+<form action="">
+  First Name<br>
+  <input type="text" name="firstname" value="" style="  width: 400px; height: 200px border : none">
+  <br>
+  Last Name:<br>
+  <input type="text" name="lastname" value="" style="  width: 400px; height: 200pxborder : none">
+   <br>Email<br>
+  <input type="text" name="email" value="" style="  width: 400px; height: 200px border : none">
+  <br>
+  Password<br>
+  <input type="text" name="Password" value="" style="  width: 400px; height: 200px border : none">
+  <br> Organization<br>
+  <input type="text" name="organization" value="" style="  width: 400px; height: 200px border : none">
+  <br>
+  Position<br>
+  <input type="text" name="position" value="" style="  width: 400px; height: 200px border : none">
+  <br><br>
+  
+  <a ui-sref="filteredRequestPage"><button type="submit" value="Submit" style=" background-color: #ff9900; width: 200px; height: 30px; border : none">Submit</button></a>
+</form> 
+
+</div>
+
+</div>
+<!-- <div class="col-md-3"><img class= "scissors" src="/scissors.png"></div> -->
+</div>
+
+</div>

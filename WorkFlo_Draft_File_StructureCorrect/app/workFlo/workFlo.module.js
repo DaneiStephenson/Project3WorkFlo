@@ -13,7 +13,7 @@ angular
        'workFlo.frontPage',
        'workFlo.loadingPage',
        'workFlo.loginHomePage',
-       // 'workFlo.randomSearchPage',
+       'workFlo.randomSearchPage',
        
        'workFlo.signIn',
        'workFlo.signUp',

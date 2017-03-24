@@ -12,7 +12,7 @@ function randomSearchPageConfig($stateProvider) {
         name: 'randomSearchPage', // name of the route
         url: '/randomSearchPage', // url endpoint for the route
         templateUrl: '/workFlo/features/randomSearchPage/randomSearchPage.html', // The url to the view template
-        controller: 'RandomSearchPage', // The name of the controller to use for this route
-        controllerAs: 'RandomSearchPage' // The namespace for the view to access the view model
+        controller: 'RandomSearchPageCtrl', // The name of the controller to use for this route
+        controllerAs: 'RandomSearchPageVm' // The namespace for the view to access the view model
     })
 }
