@@ -576,6 +576,29 @@ float:right;
   }
 }
 
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 100px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
 .dropbtn.loading {
   
     /*background-color: #4CAF50;
@@ -625,7 +648,10 @@ float:right;
 /* Change color of dropdown links on hover */
 .dropdown-menu a:hover {
   background-color: #f1f1f1;
-  width: 150px;}
+  width: 100px;
+  min-width: 100px;
+}
+
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -657,22 +683,23 @@ float:right;
 }
 
 .hamburgerSearchIcon{
-  margin-left: 90px;
+  margin-left: 480px;
+  margin-top:-10px;
 }
 
 
-.dropdown-menu {
+.ddmfp {
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 1000;
     display: none;
     float: left;
-    min-width: 130px;
+    
     padding: 3px 0;
-    margin-left: 90px;
+    margin-left: 400px;
     margin-top: -10px;
-    font-size: 14px;
+    font-size: 10px;
     text-align: left;
     list-style: none;
     background-color: #fff;
