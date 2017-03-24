@@ -8,7 +8,7 @@
  <a href="javascript:history.forward()" ><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
 
       
-<input type="text" class="form-control searchbox clickedImage searchboxoptions"  placeholder="Search">
+<a ui-sref="loginHomePage"><input type="text" class="form-control searchbox clickedImage searchboxoptions"  placeholder="Search"></a>
     
 
 
@@ -20,7 +20,8 @@
     </a>
     <ul class="dropdown-menu ddmfp">
 		<li class="menuitem"><a ui-sref= "signIn">Sign In</a></li>
-		<li class="menuitem"><a>Sign Up</a></li>
+		<li class="menuitem"><a ui-sref= "signIn">Sign Up</a></li>
+		<li class="menuitem"><a ui-sref= "/contactPage">Contact Page</a></li>
 		
     </ul>
 </div>

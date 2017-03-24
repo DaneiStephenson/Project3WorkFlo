@@ -13,8 +13,19 @@
             </a>
 
 
-                <input type="text" class="form-control searchbox searhboxptions2" placeholder="Search">
-                <span class="glyphicon glyphicon-menu-hamburger"> </span>
+                <a ui-sref="loginHomePage"><input type="text" class="form-control searchbox searhboxptions2" placeholder="Search"></a>
+
+                <div class="dropdown">
+    <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+    <span class="glyphicon glyphicon-menu-hamburger hamburgerSearchIcon"></span>
+    </a>
+    <ul class="dropdown-menu ddmfp">
+        <li class="menuitem"><a ui-sref= "signIn">Sign In</a></li>
+        <li class="menuitem"><a ui-sref= "signUp">Sign Up</a></li>
+        <li class="menuitem"><a ui-sref= "contactPage">Contact Page</a></li>
+        
+    </ul>
+</div>
 
                 </div>
 
@@ -29,9 +40,9 @@
             <div class="box">
                 <h2>Range</h2>
                 <form action="">
-                    <input type="radio" name="gender" value="male"> Male<br><br>
-                    <input type="radio" name="gender" value="female"> Female<br><br>
-                    <input type="radio" name="gender" value="other"> Other
+                    <input type="radio" name="gender" value="male"> Most Viewed<br><br>
+                    <input type="radio" name="gender" value="female"> Newly Added<br><br>
+                    <input type="radio" name="gender" value="other"> Most Favorited
                 </form>
             </div>
         </div>
@@ -56,5 +67,6 @@
 
             </div>
         </div>
+       <a ui-sref="filteredRequestPage"><button type="submit" value="Submit" style=" background-color: #ff9900; width: 200px; height: 30px; border : none">Submit</button></a>
     </div>
 </div>
